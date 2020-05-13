@@ -10,8 +10,8 @@ public class GuessingGameApp {
         int guess = input.nextInt();
         int numberOfAttempts = 0;
         Random rnd = new Random( );
-        int correctGuess = rnd.nextInt(10);
-        System.out.print(correctGuess);
+        int correctGuess = rnd.nextInt(10+1);
+       // System.out.print(correctGuess);
 
 
         if (guess == 0){
